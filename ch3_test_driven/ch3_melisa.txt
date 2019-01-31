@@ -1,0 +1,56 @@
+----------------------------------------
+INTRODUCTION TO TEST DRIVEN DEVELOPMENT
+----------------------------------------
+
+----------------------------------------
+WHAT ARE THE ADVANTAGES OF TDD?
+----------------------------------------
+
+-Developing code this way means that you consider different routes through the code.
+
+-It also means that you cover these routes with the tests as needed.
+
+-TDD matches the ideals and principles of the Agile Development process by delivering
+incremental updates to a prduct with quality, not quantity.
+
+-Testing ensures that your code works properly under a given set of conditions.
+
+-Testing allows you to ensure that changes to the code won't break existing functionality.
+
+-Good testing means modular, decoupled code, which is a hallmark of good system design.
+
+----------------------------------------
+STEP BY STEP EXPLANATION OF TDD PROCEDURE
+----------------------------------------
+
+-Write a test
+-The test fails as there is no code
+-Write the minimum code to make the test pass
+-Write another test
+-Test fails
+-Adapt and extend current code
+-Repeat until you can't write anymore tests
+
+You will need to repeat this process for every feature, as necessary. 
+
+Rule 1: You don't write functional code, unless it makes one test pass.
+Rule 2: You only write teh code you need to make that one test pass.
+
+----------------------------------------
+PAIR PROGRAMMING
+----------------------------------------
+
+-It is always good to have someone else check your work.
+
+-It also allows for your partner to give you suggestions when working together.
+
+-Usually, one person writes the test, see it fail, and then allow the other
+developer to write the code to let the test pass. 
+
+----------------------------------------
+EXPECTED FAILURE
+----------------------------------------
+
+-For TDD you write a test before the development code, so you should expect failure. 
+-This means that the test fails in the way that you expect it to..
+-Building this habit gives you a safe scenario.
