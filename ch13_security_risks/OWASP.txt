@@ -1,0 +1,31 @@
+CROSS- SITE SCRIPTING (XSS)
+
+Cross-site scripting attacks are a type of injection, in which malicious
+scripts are injected into trusted websites.
+
+XSS attacks occur when an attacker uses a web application to send malicious
+code, generally in the form of a browser side script, to a different end user.
+
+The end user's browser has no way to know that the script should not be trusted,
+and will execute the script. 
+
+Because it thinks that the script came from a trusted source, the malicious 
+script can access any cookies, session tokens or other sensitive information
+retained by the browser and use within that site.
+
+
+COMPONENTS WITH KNOWN VULNERABILITIES
+
+Some vulnerable components include frameowork libraries. These components can be 
+identified and exploited with automated tools. An attacker will identify a weak
+component through scanning or manual analysis.
+
+Then the attacker will customize the exploit as needed and execute the attack.
+It will get more difficuilt to carry out the attack if the component is deep in 
+the application.
+
+Most applications have these issues because most development teams might not focus
+on ensuring their components/libraries are up to date. 
+
+The full range of weaknesses is possible, including injection, broken access control,
+XSS etc. 

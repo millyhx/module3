@@ -1,0 +1,20 @@
+MOSCOW
+
+Must Have
+
+*Database
+*Database must have Business Categories, Business names and adresses 
+*Database must have People's first name, surname and addresses
+*The user must be able to search through the databases for Businesses and People
+  
+Should Have
+
+*The project must be able to take input from the user to produce an output of the information they requested
+*Needs to test files for unit and integration testing
+*Add validation for input
+
+
+Could Have
+
+*Shows related results to what the user requested
+*Orders the results by how close or how far the business or person is to their preferred location 
